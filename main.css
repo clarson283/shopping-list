@@ -1,63 +1,14 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*here is the start of my CSS*/
 
 body {
 	background-color: #0099CC;
 }
 
 #reset {
+	margin-top: 66px;
 	text-decoration: none;
-	color: black;
-	font-size: 12px;
-	font-family: Arial;
+	color: #0099CC;
+	font-size: 18px;
+	font-family: 'Lobster Two', cursive;
 	font-weight: bold;
 	border: 1px solid white;
 	position: absolute;
@@ -71,37 +22,55 @@ body {
 
 #header {
 	background-color: #FFFFF0;
+	color: #0099CC;
+	line-height: 40px;
 	font-size: 35px;
-	font-family: Arial, sans-serif;
+	font-family: 'Lobster Two', cursive;
 	font-weight: bold;
 	padding: 20px;
-	margin-top: 60px;
+	margin-top: 0px;
 	text-align: center;
+}
+
+#input-area {
+	border-radius: 2px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
 }
 
 #list-item {
 	width: 30%;
-	border: 1px solid black;
-	padding: 6px 4px;
+	border: 0px;
+	padding: 6px 6px;
 	border-radius: 2px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 18px;
+	background-color: #FFFFF0;
+	color: #0099CC;
+	margin-right: 20px;
+}
+
+#submit {
+	background-color: #FFFFF0;
+	color: #0099CC;
+	padding: 6px 10px;
+	border-radius: 2px;
+	border: 0px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 18px;
 }
 
 #main {
+	display: none;
 	background-color: #FFFFF0;
 	border-radius: 2px;
-	text-align: center;
+	text-align: left;
 	margin: auto;
 	width: 40%;
 	margin-top: 20px;
 	padding: 20px;
-}
-
-#submit {
-	background-color: #E6E6E6;
-	color: black;
-	border-radius: 2px;
-	border: 1px solid black;
-	height: 26px;
 }
 
 #main ol {
@@ -109,8 +78,10 @@ body {
 }
 
 #main li {
-	font-family: Arial;
-	font-size: 14px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 22px;
 	padding: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #0099CC;
+	border-radius: 2px;
+	color: #0099CC;
 }

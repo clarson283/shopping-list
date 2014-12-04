@@ -4,23 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Smart Shop</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	
-	<input type="button" value="Clear List" id="reset">
-	
-
 	<div id="header">
 		<h1>Smart Shop Grocery List</h1>
 	</div>
 
-	<div id="main">
-		<form>
+	<input type="button" value="Clear List" id="reset">
+	
+
+	<form id="input-area">
 			<input type="text" id="list-item" name="list-item" placeholder="add your item here">
 			<input type="submit" value="Add Item" id="submit">
-		</form>
+	</form>
+
+	<div id="main">
 		<ol id="list">
 			<li><span class="added"><span></li>
 		</ol>
